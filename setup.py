@@ -26,7 +26,7 @@ setup(
     install_requires=["requests"],
     entry_points={
         "console_scripts": [
-            "sp-msql=sp_mysql.cli:main",
+            "sp_mysql=sp-mysql.cli:main",
         ]
     },
 )
